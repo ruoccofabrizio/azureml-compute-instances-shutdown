@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "YOUR_BLOB_STORAGE_CONNECTION_STRING",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "tenant_id" : "YOUR_TENANT_ID",
+    "subscription_id" : "YOUR_SUBSCRIPTION_ID",
+    "service_principal_id" : "YOUR_SERVICE_PRINCIPAL_ID",
+    "service_principal_password" : "YOUR_SERVICES_PRINCIPAL_PASSWORD",
+    "resource_group": "YOUR_RESOURCE_GROUP",
+    "aml_workspace" : "YOUR_AML_WORKSPACE_NAME",
+    "aml_compute_instance" : "YOUR_COMPUTE_INSTANCE_NAME",
+    "SENDGRID_API_KEY" : "YOUR_SENDGRID_API_KEY",
+    "func_cancel_shutdown" : "YOUR_FUNCTION_CancelShutDown_TO_ADD_AFTER_FIRST_DEPLOY",
+    "from_email" : "from_email@example.com",
+    "to_emails" : "to@example.com",
+    "subject" : "[AzureML] Shutdown Compute Instance"
+  }
+}
